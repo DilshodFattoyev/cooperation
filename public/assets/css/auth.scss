@@ -1,0 +1,44 @@
+.auth{
+   height: 100vh;
+   width: 100vw;
+   display: flex;
+   .title{
+      margin-top: -10px;
+      font-size: 20px;
+      font-weight: 800;
+      margin-bottom: 20px;
+      color: rgb(21, 113, 218);
+   }
+   &__left{
+      width: 40%;
+      background-color: rgb(95, 95, 242);
+      text-align: center;
+      img{
+         margin-top: 200px;
+      }
+   }
+   &__right{
+      background-color:#FEFBF4;
+      width: 60%; 
+      display: flex;
+      align-items: center;
+      justify-content: center;
+   }
+   &__form{
+      background-color:white;
+      padding: 50px;
+      max-width: 420px;
+      width: 100%;
+      border-radius: 16px;
+      text-align: center;
+      .el-form{
+         display: block;
+      }
+      .btn{
+         margin-top: 20px;
+         width: 100%;
+         padding: 20px;
+      }
+   
+   }
+}
